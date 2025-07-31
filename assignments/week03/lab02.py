@@ -24,11 +24,13 @@ if entered_pin == pin:
 
         if choice == "2":
             x = float(input("withdraw amount: "))
-            balance = balance - x
+            if x <= balance:
+                balance = balance - x
             print ("Now,you have:", balance)
         if choice == "3":
             deposit = float (input("Deposit amount:"))
-            balance = balance + deposit 
+            if deposit <= balance:
+                balance = balance + deposit 
             print("Now, you have:",balance)
 else:
     print("Invalid PIN")
