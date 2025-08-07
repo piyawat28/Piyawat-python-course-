@@ -6,6 +6,7 @@ Personal Information Manager
 
 Allow the user to:
 
+
 Display all information
 Add new hobbies
 Remove hobbies

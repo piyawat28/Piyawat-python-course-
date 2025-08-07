@@ -21,14 +21,17 @@ def number_operations():
     # Get 10 numbers from user
     print("Enter 10 numbers:")
     for i in range(10):
-        # Your code here
+        get_number =input(list)
+        split_number = get_number.split
+        print(split_number)
         pass
     
     # Display original list
-    print(f"Original numbers: {numbers}")
+    print(f"Original numbers: {split_number}")
     
     # Create filtered lists
-    even_numbers = # Your code here
+    even_numbers = list
+    # Your code here
     odd_numbers = # Your code here
     
     # Calculate average
