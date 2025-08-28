@@ -45,7 +45,7 @@ def analyze_scores(scores):
         "lowest"  : lowest,
         "passed" : passed,
     }
- def count_vowels_consonants(text):
+    def count_vowels_consonants(text):
      test = text.replace("","")
      text = text.lower()
      vower = text.count('a')+ text.count('e')+ text.count('i')+ text.count('o')+ text.count('u')+ text.count
