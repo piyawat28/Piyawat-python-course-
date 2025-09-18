@@ -25,7 +25,7 @@ class Rectangle :
         else:
             return False
         
-    x = Rectangle(10,5)
+    x  = Rectangle(10,5)
     print("Area of x = " + x.getArea())
     print("Perimeter of x =" + x.getPerimeter())
 
